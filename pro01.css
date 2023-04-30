@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: red;
+}
+
+.navbar .nav-link{
+    color: rgb(10, 10, 94);
+}
+
+.navbar .nav-link:hover{
+    color: red;
+    transition: 0.3s;
+}
+
+.navbar .nav-item{
+    color: rgb(7, 7, 78);
+    font-size: 500;
+    padding-left: 35px;
+}
+
+.main{
+    background: url(./images/handsomecopy.jpg);
+    /* background-size: cover; */
+    /* background size cover takla tr img small device la cut hoti */
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(7, 7, 78);
+}
+
+.main input{
+    height: 71px;
+    width: 70%;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+
+#btn2{
+    height: 70px;
+    width: 25%;
+    /* background-color: rgb(243, 73, 73); */
+    /* color: white; */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* transition: all 0.4s; */
+}
+
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.8s;
+    -webkit-box-shadow: 21px 21px 41px -9px rgba(0,0,0,0.61);
+    -moz-box-shadow: 21px 21px 41px -9px rgba(0,0,0,0.61);
+    box-shadow: 21px 21px 41px -9px rgba(0,0,0,0.61);
+}
+
+#btn3{
+    height: 70px;
+    width: 70%;
+    border: 1px solid rgb(130, 130, 231);
+    background: transparent;
+    border-radius: 5px;
+    transition: all 0.4s;
+    color:rgb(130, 130, 231);
+}
+
+#btn3:hover{
+    background: rgb(102, 102, 214);
+    color: white;
+    border: none;
+    outline: none;
+    transition: all 0.4s;
+
+    -webkit-box-shadow: 31px 32px 52px -19px rgba(92,92,219,1);
+    -moz-box-shadow: 31px 32px 52px -19px rgba(92,92,219,1);
+    box-shadow: 31px 32px 52px -19px rgba(92,92,219,1);
+}
+
+.resume{
+    /* background-image: linear-gradient(rgba(4,11,75,0.7), rgba(4,26,100,0.7)) url(./images/woman.jpg)no-repeat; */
+    /* background image la linear gradient lagt nahi */
+    background: linear-gradient(rgba(4,11,75,0.7), rgba(4,26,100,0.7)),url(./images/woman.jpg)no-repeat;
+    /* background-size: cover; */
+    /* background size cover takla tr img small device la cut hoti */
+    background-size: 100% 100%;
+    /* height: 90vh; */
+    /* height dilya mull responsive hott navti site */
+    width: 100%;
+}
+
+.resume h1{
+    font-size: 3.8rem;
+}
+
+.apply{
+    background: url(./images/cool-background.png)no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+    /* height dilya mull responsive hott navti site */
+    width: 100%;
+}
+
+.apply h1{
+    font-size: 3.2rem;
+}
+
+.apply .card{
+    background-color: rgba(4,26,100,0.8);
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background: white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle img{
+    border-radius: 50%;
+}
+
+.avatar{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.footer{
+    background: #121626;
+}
+
+.footer p{
+    color: #69696b;
+}
+
+.link{
+    color: #69696b;
+}
+
+.link:hover{
+    color: red;
+    padding-left: 10px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.footer input{
+    height: 45px;
+    width: 70%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+.footer button{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    margin-left: -12px;
+    border-top: 1px solid red;
+    background: red;
+    color: white;
+    margin-top: 40px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+/* .fas{
+    font-size: 1.4rem;
+} */
+
